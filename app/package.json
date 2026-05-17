@@ -1,0 +1,18 @@
+{
+  "name": "newcappapp-ui",
+  "version": "1.0.0",
+  "description": "capapp approuter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/@sap/approuter/approuter.js"
+  },
+  "keywords": [
+    "cap"
+  ],
+  "author": "priya",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/approuter": "^22.0.0"
+  }
+}
