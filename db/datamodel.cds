@@ -19,7 +19,7 @@ context master {
         ADDRESS_GUID: Association to one address;
     }
 
-    //check table, whoes primary is NODE_KEY - Test 
+    //check table, whoes primary is NODE_KEY - Test 1
     entity address{
         key NODE_KEY: common.Guid;
         CITY: String(44);
