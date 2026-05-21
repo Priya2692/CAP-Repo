@@ -5,7 +5,7 @@ using { Currency, cuid } from '@sap/cds/common';
 
 context master {
     
-    //foreign ky table - ADDRESS_GUID
+    //foreign ky table - ADDRESS_GUID //
     entity businesspartner{
         key NODE_KEY: common.Guid @(title: '{i18n>PARTNER_KEY}');
         BP_ROLE: String(2);
